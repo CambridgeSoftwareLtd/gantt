@@ -7,6 +7,8 @@ export default class Bar {
         this.prepare();
         this.draw();
         this.bind();
+        
+        console.log('Running Bar method');
     }
 
     set_defaults(gantt, task) {
